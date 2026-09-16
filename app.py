@@ -3,11 +3,8 @@ from turtle import *
 t = Turtle()
 
 t.shape('turtle')
-t.forward(200)
 
-def message(input):
-    print(input)
-message("Hello Class")
+#t.forward(200)
 
 def square(x):
     t.forward(x)
@@ -18,7 +15,48 @@ def square(x):
     t.left(90)
     t.forward(x)
     t.left(90)
-square(200)
+#square(200)
 
+
+def equal(x):
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+#equal(200) 
+
+def right():
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.left(135)
+    t.forward(142)
+#right()
+
+
+
+
+def rectangle():
+    t.forward(125)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(125)
+    t.left(90)
+    t.forward(100)
+#rectangle()
+
+
+
+
+
+def triangle(x):
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+#triangle(90)
 
 turtle.done()
