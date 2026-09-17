@@ -1,4 +1,4 @@
-import turtle
+""" import turtle
 from turtle import *
 t = Turtle()
 
@@ -59,4 +59,4 @@ def triangle(x):
     t.forward(x)
 #triangle(90)
 
-turtle.done()
+turtle.done() """
