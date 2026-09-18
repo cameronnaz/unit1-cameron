@@ -1,8 +1,8 @@
-import turtle
+""" import turtle
 from turtle import *
 t = Turtle()
-t.speed(1000)
-def square1():
+t.speed(1000) """
+""" def square1():
     for i in range (4):
      t.forward(100)
      t.left(90)
@@ -37,11 +37,32 @@ def traingle1():
 
 #traingle1()
 
-length = 100
-for i in range (20):
-  t.forward(length)
-  t.left(90)
-  length =+ 25
+
+length = 25 
+for i in range (5):
+  for i in range (4):
+    t.forward(length)
+    t.left(90)
+  length += 25
+ """
+
+""" length = 5
+for i in range (60):
+    for i in range (4):
+        t.forward(length)
+        t.left(90)
+    t.right(5)
+    length += 5 """
+
+""" length = 5
+for i in range (60):
+    for i in range (5):
+        t.forward(length)
+        t.left(144)
+    t.right(5)
+    length += 5 """
 
 
+""" 
+turtle.done() """
     
